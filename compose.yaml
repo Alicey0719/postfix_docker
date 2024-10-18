@@ -1,0 +1,7 @@
+services:
+  postfix:
+    container_name: postfix
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    # tty: true

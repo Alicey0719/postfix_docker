@@ -1,0 +1,15 @@
+myhostname = hogehoge.alicey.dev
+mydomain = hogehoge.alicey.dev
+myorigin = hogehoge.alicey.dev
+inet_interfaces = all
+inet_protocols = ipv4
+mydestination = hogehoge.alicey.dev
+relayhost = 
+masquerade_domains = 
+mynetworks = 10.0.0.0/8 100.64.0.0/10 172.16.0.0/16
+mailbox_size_limit = 0
+recipient_delimiter = +
+smtpd_tls_cert_file = /etc/ssl/postfix/tls.crt
+smtpd_tls_key_file = /etc/ssl/postfix/tls.key
+smtpd_use_tls = yes
+maillog_file = /dev/stdout
